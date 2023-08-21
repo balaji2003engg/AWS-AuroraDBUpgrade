@@ -5,7 +5,7 @@ Error :  Getting below error while upgrading aws aurora DB upgrade from aurora m
 
 Resolution :
 
-1. Create the parameter group  with the default aurora 8.0 and change the **lower_case_table_names** = 1
+1. Create the parameter group  with the default aurora 8.0 cluster and change the **lower_case_table_names** = 1
 2. Update  the parameter group name  while upgrading aurora.
 
    Reference : https://stackoverflow.com/questions/55544132/can-not-create-a-new-rds-mysql-db-instance-with-lower-case-table-names-1
